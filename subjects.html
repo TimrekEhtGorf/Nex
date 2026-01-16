@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Subjects — Nexus Education</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+</head>
+<body data-page="subjects">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">
+        <img src="assets/img/logo.svg" alt="Nexus Education logo" />
+        <span>Nexus Education</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="subjects.html" class="nav-link">Subjects</a>
+        <a href="tutors.html" class="nav-link">Tutors</a>
+        <a href="resources.html" class="nav-link">Resources</a>
+        <a href="contact.html" class="btn btn-primary">Enrol / Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="reveal">Subjects we offer</h1>
+        <p class="lead reveal">English and Mathematics for NSW students in Years 7–10, aligned with NESA requirements and tailored to student goals.</p>
+      </div>
+    </section>
+
+    <section class="tabs container">
+      <div class="tablist" role="tablist" aria-label="Subjects">
+        <button class="tab active" id="tab-english" role="tab" aria-controls="panel-english" aria-selected="true">English</button>
+        <button class="tab" id="tab-maths" role="tab" aria-controls="panel-maths" aria-selected="false">Mathematics</button>
+      </div>
+
+      <div class="tabpanel active reveal" id="panel-english" role="tabpanel" aria-labelledby="tab-english">
+        <div class="panel-grid">
+          <div>
+            <h2 id="english">English (Years 7–10)</h2>
+            <p>We build strong literacy skills: reading, writing, speaking, and understanding texts. Students learn to analyse language features, structure responses, and express ideas with clarity and confidence.</p>
+            <ul class="tick-list">
+              <li>Comprehension and close reading of varied texts</li>
+              <li>Paragraphing, essay writing, and extended responses</li>
+              <li>Persuasive, imaginative, and informative writing</li>
+              <li>Vocabulary, grammar, and editing skills</li>
+              <li>Exam strategy and time management</li>
+            </ul>
+            <a href="contact.html" class="btn btn-secondary">Enrol for English</a>
+          </div>
+          <aside class="aside-card">
+            <h3>How we teach</h3>
+            <p>Small groups or one‑on‑one. Short, focused practice combined with model responses and feedback.</p>
+            <h4>By year level</h4>
+            <ul>
+              <li>Year 7–8: foundations, sentence craft, text types</li>
+              <li>Year 9: analysis, comparison, building essay structure</li>
+              <li>Year 10: high school exam skills, stronger responses</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+
+      <div class="tabpanel reveal" id="panel-maths" role="tabpanel" aria-labelledby="tab-maths">
+        <div class="panel-grid">
+          <div>
+            <h2 id="mathematics">Mathematics (Years 7–10)</h2>
+            <p>Confidence with number, algebra, measurement, geometry, statistics, and probability. We emphasise problem‑solving strategies and mathematical reasoning.</p>
+            <ul class="tick-list">
+              <li>Number skills and fractions fluency</li>
+              <li>Algebraic manipulation and equations</li>
+              <li>Measurement, ratio, and rates</li>
+              <li>Geometry, Pythagoras, and trigonometry (Year 9–10)</li>
+              <li>Statistics and probability basics</li>
+            </ul>
+            <a href="contact.html" class="btn btn-secondary">Enrol for Mathematics</a>
+          </div>
+          <aside class="aside-card">
+            <h3>How we teach</h3>
+            <p>Concept‑first explanations, guided examples, then independent practice with feedback and revision.</p>
+            <h4>By year level</h4>
+            <ul>
+              <li>Year 7–8: foundations and confidence</li>
+              <li>Year 9: multi‑step problems and reasoning</li>
+              <li>Year 10: preparation for Stage 6 pathways</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq container">
+      <h2 class="reveal">Frequently asked questions</h2>
+      <div class="accordion">
+        <button class="acc-btn">Do you offer face‑to‑face sessions?<span>+</span></button>
+        <div class="acc-panel">
+          <p>Yes. We run face‑to‑face tuition and provide online resources to support learning at home.</p>
+        </div>
+
+        <button class="acc-btn">Which year levels?<span>+</span></button>
+        <div class="acc-panel">
+          <p>We support NSW students in Years 7–10.</p>
+        </div>
+
+        <button class="acc-btn">How do I enrol?<span>+</span></button>
+        <div class="acc-panel">
+          <p>Message us via the Contact page and we’ll organise a time to chat about your goals and next steps.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="brand">
+        <img src="assets/img/logo.svg" alt="Nexus Education logo" />
+        <p>English and Mathematics tuition for NSW Years 7–10.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="subjects.html">Subjects</a>
+        <a href="tutors.html">Tutors</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="contact-mini">
+        <p>Email: <a href="mailto:INSERT EMAIL HERE">INSERT EMAIL HERE</a></p>
+      </div>
+    </div>
+    <button class="to-top" aria-label="Back to top">↑</button>
+  </footer>
+
+  <script src="assets/js/script.js" defer></script>
+</body>
+</html>

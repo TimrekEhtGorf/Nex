@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact / Enrol — Nexus Education</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+</head>
+<body data-page="contact">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">
+        <img src="assets/img/logo.svg" alt="Nexus Education logo" />
+        <span>Nexus Education</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="subjects.html" class="nav-link">Subjects</a>
+        <a href="tutors.html" class="nav-link">Tutors</a>
+        <a href="resources.html" class="nav-link">Resources</a>
+        <a href="contact.html" class="btn btn-primary">Enrol / Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="reveal">Enquire or book a chat</h1>
+        <p class="lead reveal">Tell us a bit about your goals and we’ll get back to you shortly.</p>
+      </div>
+    </section>
+
+    <section class="container contact-grid">
+      <form class="contact-form reveal" id="contactForm">
+        <div class="field">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+
+        <div class="field">
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+
+        <div class="field">
+          <label for="phone">Phone (optional)</label>
+          <input id="phone" name="phone" type="tel" />
+        </div>
+
+        <div class="field">
+          <label for="year">Year level</label>
+          <select id="year" name="year">
+            <option>Year 7</option>
+            <option>Year 8</option>
+            <option>Year 9</option>
+            <option>Year 10</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject">
+            <option>English</option>
+            <option>Mathematics</option>
+            <option>Both</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+        </div>
+
+        <!-- IMPORTANT: Replace INSERT EMAIL HERE below with your email address -->
+        <button type="submit" class="btn btn-primary">Send enquiry</button>
+        <p class="form-note">This will open your email app to send the message to: INSERT EMAIL HERE</p>
+      </form>
+
+      <aside class="contact-aside reveal">
+        <div class="info-card">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:INSERT EMAIL HERE">INSERT EMAIL HERE</a></p>
+          <p>We tutor NSW students in Years 7–10 via face‑to‑face sessions and online resources.</p>
+        </div>
+        <div class="info-card">
+          <h3>Hours</h3>
+          <p>Mon–Fri: 3:30 pm – 7:30 pm</p>
+          <p>Sat: 9:00 am – 1:00 pm</p>
+          <p>Sun & public holidays: closed</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="container">
+      <div class="cta-box reveal">
+        <h2>Prefer to email directly?</h2>
+        <p>Send us a message at <a href="mailto:INSERT EMAIL HERE">INSERT EMAIL HERE</a> and we’ll respond promptly.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="brand">
+        <img src="assets/img/logo.svg" alt="Nexus Education logo" />
+        <p>English and Mathematics tuition for NSW Years 7–10.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="subjects.html">Subjects</a>
+        <a href="tutors.html">Tutors</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="contact-mini">
+        <p>Email: <a href="mailto:INSERT EMAIL HERE">INSERT EMAIL HERE</a></p>
+      </div>
+    </div>
+    <button class="to-top" aria-label="Back to top">↑</button>
+  </footer>
+
+  <script src="assets/js/script.js" defer></script>
+</body>
+</html>

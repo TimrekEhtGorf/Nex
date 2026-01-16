@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tutors — Nexus Education</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+</head>
+<body data-page="tutors">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">
+        <img src="assets/img/logo.svg" alt="Nexus Education logo" />
+        <span>Nexus Education</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="subjects.html" class="nav-link">Subjects</a>
+        <a href="tutors.html" class="nav-link">Tutors</a>
+        <a href="resources.html" class="nav-link">Resources</a>
+        <a href="contact.html" class="btn btn-primary">Enrol / Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="reveal">Meet our tutors</h1>
+        <p class="lead reveal">Friendly, experienced tutors who explain clearly and tailor lessons to each student.</p>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="filter-bar reveal">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="english">English</button>
+        <button class="chip" data-filter="mathematics">Mathematics</button>
+      </div>
+
+      <!-- Replace the images under assets/img/tutors/ with your own portrait photos -->
+      <div class="tutor-grid">
+        <article class="tutor-card reveal" data-subject="english">
+          <div class="tutor-photo">
+            <img src="assets/img/tutors/tutor1.jpg" alt="Tutor portrait" />
+          </div>
+          <div class="tutor-info">
+            <h3>Alex</h3>
+            <p class="tags">English • Years 7–10</p>
+            <p>Focus on writing structure and textual analysis. Encouraging and practical approach.</p>
+          </div>
+        </article>
+
+        <article class="tutor-card reveal" data-subject="mathematics">
+          <div class="tutor-photo">
+            <img src="assets/img/tutors/tutor2.jpg" alt="Tutor portrait" />
+          </div>
+          <div class="tutor-info">
+            <h3>Jordan</h3>
+            <p class="tags">Mathematics • Years 7–10</p>
+            <p>Builds confidence with step‑by‑step problem solving and revision strategies.</p>
+          </div>
+        </article>
+
+        <article class="tutor-card reveal" data-subject="english">
+          <div class="tutor-photo">
+            <img src="assets/img/tutors/tutor3.jpg" alt="Tutor portrait" />
+          </div>
+          <div class="tutor-info">
+            <h3>Sophia</h3>
+            <p class="tags">English • Years 7–10</p>
+            <p>Helps students refine vocabulary and craft persuasive, imaginative, and informative writing.</p>
+          </div>
+        </article>
+
+        <article class="tutor-card reveal" data-subject="mathematics">
+          <div class="tutor-photo">
+            <img src="assets/img/tutors/tutor4.jpg" alt="Tutor portrait" />
+          </div>
+          <div class="tutor-info">
+            <h3>Marcus</h3>
+            <p class="tags">Mathematics • Years 7–10</p>
+            <p>Makes abstract concepts concrete using diagrams, examples, and practice.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="center">
+        <a href="contact.html" class="btn btn-secondary">Book a trial session</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="brand">
+        <img src="assets/img/logo.svg" alt="Nexus Education logo" />
+        <p>English and Mathematics tuition for NSW Years 7–10.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="subjects.html">Subjects</a>
+        <a href="tutors.html">Tutors</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="contact-mini">
+        <p>Email: <a href="mailto:INSERT EMAIL HERE">INSERT EMAIL HERE</a></p>
+      </div>
+    </div>
+    <button class="to-top" aria-label="Back to top">↑</button>
+  </footer>
+
+  <script src="assets/js/script.js" defer></script>
+</body>
+</html>
